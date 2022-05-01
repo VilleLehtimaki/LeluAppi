@@ -4,6 +4,8 @@ public class App {
         Lelu lelu = new Lelu("Nalle", 1);
         Vieteriauto vieteriauto = new Vieteriauto(1, "Verrari", 2);
 
+        System.out.println("Hello World");
+
         lelu.tulostaTiedot();
 
         vieteriauto.kiihdyta();
